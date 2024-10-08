@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    border-radius: 5px;
+    background-color: #d3d2d2;
+    padding: 20px;
+    margin: 0;
+}
+
+.container{
+    background-color: #fff;
+    padding: 8px;
+    display: flex;
+    padding-left: 7em;
+
+}
+
+h1{
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    color: #000;
+    margin: 0 0 5px 0;
+}
+
+p{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 12px 15em;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label{
+    padding: 13px;
+    display: inline-flex;
+}
+
+span{
+    font-size: 11px;
+    padding-right: 12px;
+}
+
+.l-col{
+    float: left;
+    width: 55%;
+    text-align:right;
+}
+
+.i-col{
+    float: right;
+    width: 45%;
+}
+
+input[type=text], input[type=email], select{
+    width: 44em;
+    padding: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    outline: none;
+    
+}
+
+input[type=submit]{
+    background-color: tomato;
+    color: white;
+    padding: 7px 65px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 30em;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+select{
+    opacity: 0.5;
+}
+
+.role, .course{
+    width: 10em;
+    padding: 8px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    background-color: rgb(225, 225, 225);
+}

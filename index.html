@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deebug Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/logo.jpeg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="bg-container">
+        <h1>Deebug Institute Survey</h1>
+        <div class="container">
+            <form action="" method="get">
+                <p>Let us know how to improve things around here</p>
+                <div class="row">
+                    <div class="l-col">
+                        <label for="fullname">Name</label>
+                    </div>
+                    <div class="i-col">
+                        <input type="text" id="fullname" name="name" placeholder="Enter your Name">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="l-col">
+                        <label for="emailaddr">Email</label>
+                    </div>
+                    <div class="i-col">
+                        <input type="email" id="emailaddr" name="name" placeholder="Enter your Email">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="l-col">
+                        <label for="department">Department</label>
+                    </div>
+                    <div class="i-col">
+                        <select name="department" id="department">
+                            <option value="">Computer Engineering</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="l-col roler">
+                        <label for="role">What option best describes your current role?</label>
+                    </div>
+                    <div class="i-col">
+                        <select name="role" id="role" class="role">
+                            <option value="">Student</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="l-col">
+                        <label for="recommend">How likely is that you would recommend Deebug Institute to a
+                            friend</label>
+                    </div>
+                    <div class="i-col">
+                        <div class="def timed">
+                            <input type="radio" id="def" name="rec-row" value="Definitely">
+                            <label for="def">Definitely</label>
+                        </div>
+
+                        <div class="mayb ass">
+                            <input type="radio" id="mayb" name="rec-row" value="Maybe">
+                            <label for="mayb">Maybe</label>
+                        </div>
+
+                        <div class="nots heur">
+                            <input type="radio" id="nots" name="rec-row" value="Not Sure">
+                            <label for="nots">Not Sure</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="l-col courser">
+                        <label for="course">What course are you currently taking</label>
+                    </div>
+                    <div class="i-col">
+                        <select name="course" id="course" class="course">
+                            <option value="">Select an option</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="l-col">
+                        <label class="dev" for="recommend">Things that should be improved in the future</label>
+                        <div class="devv">
+                            <span>(Check all that apply)</span>
+                        </div>
+
+                    </div>
+
+                    <div class="i-col">
+                        <div class="def timed">
+                            <input type="checkbox" id="def" name="rec-row" value="Definitely">
+                            <label for="def">Time-table</label>
+                        </div>
+
+                        <div class="mayb ass">
+                            <input type="checkbox" id="mayb" name="rec-row" value="Maybe">
+                            <label for="mayb">Assignments</label>
+                        </div>
+
+                        <div class="nots heur">
+                            <input type="checkbox" id="nots" name="rec-row" value="Not Sure">
+                            <label for="nots">Heurekka</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input type="submit" name="" id="submit" value="SUBMIT">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
